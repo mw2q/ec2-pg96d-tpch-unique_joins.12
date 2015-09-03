@@ -1,0 +1,764 @@
+2015-09-02 18:57:42 EDT [60958]: [1-1] user=,db=,app=,client= LOG:  database system was shut down at 2015-09-02 18:57:41 EDT
+2015-09-02 18:57:42 EDT [60958]: [2-1] user=,db=,app=,client= LOG:  MultiXact member wraparound protections are now enabled
+2015-09-02 18:57:42 EDT [60957]: [1-1] user=,db=,app=,client= LOG:  database system is ready to accept connections
+2015-09-02 18:57:42 EDT [60962]: [1-1] user=,db=,app=,client= LOG:  autovacuum launcher started
+2015-09-02 18:58:06 EDT [60959]: [1-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (24 seconds apart)
+2015-09-02 18:58:06 EDT [60959]: [2-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:58:06 EDT [60959]: [3-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:58:13 EDT [60959]: [4-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54429 buffers (5.2%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=6.303 s, sync=0.546 s, total=6.858 s; sync files=53, longest=0.020 s, average=0.010 s; distance=404368 kB, estimate=404368 kB
+2015-09-02 18:58:19 EDT [60959]: [5-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (13 seconds apart)
+2015-09-02 18:58:19 EDT [60959]: [6-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:58:19 EDT [60959]: [7-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:58:27 EDT [60959]: [8-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54976 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=7.006 s, sync=0.544 s, total=7.557 s; sync files=50, longest=0.021 s, average=0.010 s; distance=410111 kB, estimate=410111 kB
+2015-09-02 18:58:33 EDT [60959]: [9-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2015-09-02 18:58:33 EDT [60959]: [10-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:58:33 EDT [60959]: [11-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:58:39 EDT [60959]: [12-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55205 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=6.151 s, sync=0.297 s, total=6.460 s; sync files=50, longest=0.011 s, average=0.005 s; distance=411207 kB, estimate=411207 kB
+2015-09-02 18:58:45 EDT [60959]: [13-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2015-09-02 18:58:45 EDT [60959]: [14-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:58:45 EDT [60959]: [15-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:58:52 EDT [60959]: [16-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54797 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.929 s, sync=0.509 s, total=6.447 s; sync files=50, longest=0.021 s, average=0.010 s; distance=408682 kB, estimate=410954 kB
+2015-09-02 18:58:58 EDT [60959]: [17-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (13 seconds apart)
+2015-09-02 18:58:58 EDT [60959]: [18-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:58:58 EDT [60959]: [19-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:59:04 EDT [60959]: [20-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55058 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.935 s, sync=0.519 s, total=6.465 s; sync files=50, longest=0.020 s, average=0.010 s; distance=410508 kB, estimate=410909 kB
+2015-09-02 18:59:10 EDT [60959]: [21-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2015-09-02 18:59:10 EDT [60959]: [22-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:59:10 EDT [60959]: [23-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:59:16 EDT [60959]: [24-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54452 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.633 s, sync=0.647 s, total=6.295 s; sync files=50, longest=0.042 s, average=0.012 s; distance=406149 kB, estimate=410433 kB
+2015-09-02 18:59:21 EDT [60959]: [25-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2015-09-02 18:59:21 EDT [60959]: [26-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:59:21 EDT [60959]: [27-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:59:27 EDT [60959]: [28-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54884 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.348 s, sync=0.526 s, total=5.879 s; sync files=50, longest=0.020 s, average=0.010 s; distance=409089 kB, estimate=410299 kB
+2015-09-02 18:59:32 EDT [60959]: [29-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2015-09-02 18:59:32 EDT [60959]: [30-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:59:32 EDT [60959]: [31-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:59:38 EDT [60959]: [32-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54986 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.185 s, sync=0.567 s, total=5.759 s; sync files=50, longest=0.022 s, average=0.011 s; distance=409948 kB, estimate=410264 kB
+2015-09-02 18:59:43 EDT [60959]: [33-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2015-09-02 18:59:43 EDT [60959]: [34-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:59:43 EDT [60959]: [35-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:59:48 EDT [60959]: [36-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55569 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=4.932 s, sync=0.563 s, total=5.503 s; sync files=50, longest=0.022 s, average=0.011 s; distance=414401 kB, estimate=414401 kB
+2015-09-02 18:59:53 EDT [60959]: [37-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2015-09-02 18:59:53 EDT [60959]: [38-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 18:59:53 EDT [60959]: [39-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 18:59:58 EDT [60959]: [40-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54446 buffers (5.2%); 0 transaction log file(s) added, 2 removed, 23 recycled; write=4.966 s, sync=0.563 s, total=5.541 s; sync files=50, longest=0.024 s, average=0.011 s; distance=406128 kB, estimate=413573 kB
+2015-09-02 19:00:03 EDT [60959]: [41-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2015-09-02 19:00:03 EDT [60959]: [42-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:00:03 EDT [60959]: [43-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:00:08 EDT [60959]: [44-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55281 buffers (5.3%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=4.671 s, sync=0.569 s, total=5.246 s; sync files=50, longest=0.026 s, average=0.011 s; distance=412217 kB, estimate=413438 kB
+2015-09-02 19:00:13 EDT [60959]: [45-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2015-09-02 19:00:13 EDT [60959]: [46-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:00:13 EDT [60959]: [47-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:00:18 EDT [60959]: [48-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55331 buffers (5.3%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=4.744 s, sync=0.143 s, total=4.905 s; sync files=50, longest=0.006 s, average=0.002 s; distance=412871 kB, estimate=413381 kB
+2015-09-02 19:00:22 EDT [60959]: [49-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2015-09-02 19:00:22 EDT [60959]: [50-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:00:22 EDT [60959]: [51-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:00:26 EDT [60959]: [52-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54947 buffers (5.2%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=4.143 s, sync=0.573 s, total=4.723 s; sync files=50, longest=0.035 s, average=0.011 s; distance=409862 kB, estimate=413029 kB
+2015-09-02 19:00:30 EDT [60959]: [53-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2015-09-02 19:00:30 EDT [60959]: [54-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:00:30 EDT [60959]: [55-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:00:34 EDT [60959]: [56-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54236 buffers (5.2%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=3.841 s, sync=0.591 s, total=4.442 s; sync files=50, longest=0.022 s, average=0.011 s; distance=404652 kB, estimate=412191 kB
+2015-09-02 19:00:38 EDT [60959]: [57-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2015-09-02 19:00:38 EDT [60959]: [58-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:00:38 EDT [60959]: [59-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:00:42 EDT [60959]: [60-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55350 buffers (5.3%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=3.616 s, sync=0.612 s, total=4.239 s; sync files=50, longest=0.024 s, average=0.012 s; distance=412651 kB, estimate=412651 kB
+2015-09-02 19:00:46 EDT [60959]: [61-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2015-09-02 19:00:46 EDT [60959]: [62-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:00:46 EDT [60959]: [63-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:00:50 EDT [60959]: [64-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55589 buffers (5.3%); 0 transaction log file(s) added, 1 removed, 24 recycled; write=3.560 s, sync=0.449 s, total=4.047 s; sync files=50, longest=0.020 s, average=0.008 s; distance=414540 kB, estimate=414540 kB
+2015-09-02 19:00:53 EDT [60959]: [65-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2015-09-02 19:00:53 EDT [60959]: [66-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:00:53 EDT [60959]: [67-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:00:57 EDT [60959]: [68-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55051 buffers (5.3%); 0 transaction log file(s) added, 1 removed, 24 recycled; write=3.223 s, sync=0.589 s, total=3.857 s; sync files=50, longest=0.024 s, average=0.011 s; distance=410716 kB, estimate=414157 kB
+2015-09-02 19:00:59 EDT [60959]: [69-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (6 seconds apart)
+2015-09-02 19:00:59 EDT [60959]: [70-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:00:59 EDT [60959]: [71-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:01:03 EDT [60959]: [72-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 53306 buffers (5.1%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=2.901 s, sync=0.577 s, total=3.486 s; sync files=50, longest=0.026 s, average=0.011 s; distance=397579 kB, estimate=412499 kB
+2015-09-02 19:01:05 EDT [60959]: [73-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (6 seconds apart)
+2015-09-02 19:01:05 EDT [60959]: [74-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:01:05 EDT [60959]: [75-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:01:09 EDT [60959]: [76-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55177 buffers (5.3%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=2.688 s, sync=0.599 s, total=3.300 s; sync files=50, longest=0.028 s, average=0.011 s; distance=411343 kB, estimate=412384 kB
+2015-09-02 19:01:11 EDT [60959]: [77-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (6 seconds apart)
+2015-09-02 19:01:11 EDT [60959]: [78-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:01:11 EDT [60959]: [79-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:01:14 EDT [60959]: [80-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 56456 buffers (5.4%); 0 transaction log file(s) added, 1 removed, 24 recycled; write=2.497 s, sync=0.583 s, total=3.136 s; sync files=50, longest=0.025 s, average=0.011 s; distance=421214 kB, estimate=421214 kB
+2015-09-02 19:01:17 EDT [60959]: [81-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (6 seconds apart)
+2015-09-02 19:01:17 EDT [60959]: [82-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:01:17 EDT [60959]: [83-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:01:20 EDT [60959]: [84-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55041 buffers (5.2%); 0 transaction log file(s) added, 1 removed, 24 recycled; write=2.393 s, sync=0.557 s, total=2.964 s; sync files=50, longest=0.031 s, average=0.011 s; distance=411409 kB, estimate=420233 kB
+2015-09-02 19:01:22 EDT [60959]: [85-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (5 seconds apart)
+2015-09-02 19:01:22 EDT [60959]: [86-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-02 19:01:22 EDT [60959]: [87-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-02 19:03:35 EDT [60959]: [88-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 51236 buffers (4.9%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=133.032 s, sync=0.071 s, total=133.106 s; sync files=55, longest=0.004 s, average=0.001 s; distance=403169 kB, estimate=418527 kB
+2015-09-02 19:06:22 EDT [60959]: [89-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 19:06:29 EDT [60959]: [90-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 209 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 25 recycled; write=7.235 s, sync=0.061 s, total=7.299 s; sync files=60, longest=0.030 s, average=0.001 s; distance=189428 kB, estimate=395617 kB
+2015-09-02 19:11:22 EDT [60959]: [91-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 19:11:22 EDT [60959]: [92-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 transaction log file(s) added, 3 removed, 9 recycled; write=0.010 s, sync=0.000 s, total=0.013 s; sync files=1, longest=0.000 s, average=0.000 s; distance=1 kB, estimate=356056 kB
+2015-09-02 19:21:22 EDT [60959]: [93-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 19:21:57 EDT [60959]: [94-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 951 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=35.113 s, sync=0.037 s, total=35.155 s; sync files=17, longest=0.009 s, average=0.002 s; distance=1 kB, estimate=320450 kB
+2015-09-02 19:26:23 EDT [60959]: [95-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 19:28:53 EDT [60959]: [96-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 2166 buffers (0.2%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=149.916 s, sync=0.010 s, total=149.930 s; sync files=25, longest=0.002 s, average=0.000 s; distance=2 kB, estimate=288405 kB
+2015-09-02 19:41:23 EDT [60959]: [97-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 19:41:23 EDT [60959]: [98-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.015 s, sync=0.001 s, total=0.020 s; sync files=2, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=259565 kB
+2015-09-02 19:51:23 EDT [60959]: [99-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 19:51:54 EDT [60959]: [100-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 758 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=30.995 s, sync=0.091 s, total=31.089 s; sync files=24, longest=0.010 s, average=0.003 s; distance=2 kB, estimate=233609 kB
+2015-09-02 19:56:10 EDT [61862]: [1-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.0", size 1073741824
+2015-09-02 19:56:10 EDT [61862]: [2-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:56:10 EDT [61862]: [3-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.4", size 1073741824
+2015-09-02 19:56:10 EDT [61862]: [4-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:56:10 EDT [61862]: [5-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.7", size 1073741824
+2015-09-02 19:56:10 EDT [61862]: [6-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:56:10 EDT [61862]: [7-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.10", size 987986556
+2015-09-02 19:56:10 EDT [61862]: [8-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:58:24 EDT [61862]: [9-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.12", size 212752064
+2015-09-02 19:58:24 EDT [61862]: [10-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:58:40 EDT [61862]: [11-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.2", size 1073741824
+2015-09-02 19:58:40 EDT [61862]: [12-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:58:41 EDT [61862]: [13-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.5", size 1073741824
+2015-09-02 19:58:41 EDT [61862]: [14-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:58:41 EDT [61862]: [15-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.8", size 1073741824
+2015-09-02 19:58:41 EDT [61862]: [16-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:58:41 EDT [61862]: [17-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.11", size 987447528
+2015-09-02 19:58:41 EDT [61862]: [18-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 19:59:54 EDT [61862]: [19-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.14", size 212704856
+2015-09-02 19:59:54 EDT [61862]: [20-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 20:00:11 EDT [61862]: [21-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.1", size 1073741824
+2015-09-02 20:00:11 EDT [61862]: [22-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 20:00:11 EDT [61862]: [23-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.3", size 1073741824
+2015-09-02 20:00:11 EDT [61862]: [24-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 20:00:11 EDT [61862]: [25-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.6", size 1073741824
+2015-09-02 20:00:11 EDT [61862]: [26-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 20:00:11 EDT [61862]: [27-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.9", size 987915604
+2015-09-02 20:00:11 EDT [61862]: [28-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 20:02:03 EDT [61862]: [29-1] user=mark,db=dbt3,app=psql,client=[local] LOG:  temporary file: path "base/pgsql_tmp/pgsql_tmp61862.13", size 212747528
+2015-09-02 20:02:03 EDT [61862]: [30-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'UNITED STATES'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-02 20:06:23 EDT [60959]: [101-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 20:06:23 EDT [60959]: [102-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.014 s, sync=0.000 s, total=0.020 s; sync files=1, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=210248 kB
+2015-09-02 20:11:23 EDT [60959]: [103-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 20:11:23 EDT [60959]: [104-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.012 s, sync=0.000 s, total=0.016 s; sync files=1, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=189223 kB
+2015-09-02 20:16:23 EDT [60959]: [105-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 20:16:26 EDT [60959]: [106-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 22 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=2.121 s, sync=0.009 s, total=2.132 s; sync files=17, longest=0.001 s, average=0.000 s; distance=110 kB, estimate=170312 kB
+2015-09-02 20:26:23 EDT [60959]: [107-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 20:26:23 EDT [60959]: [108-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.516 s, sync=0.002 s, total=0.520 s; sync files=6, longest=0.000 s, average=0.000 s; distance=30 kB, estimate=153284 kB
+2015-09-02 20:41:04 EDT [62494]: [1-1] user=mark,db=dbt3,app=psql,client=[local] ERROR:  canceling statement due to statement timeout
+2015-09-02 20:41:04 EDT [62494]: [2-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		l_returnflag,
+		l_linestatus,
+		sum(l_quantity) as sum_qty,
+		sum(l_extendedprice) as sum_base_price,
+		sum(l_extendedprice * (1 - l_discount)) as sum_disc_price,
+		sum(l_extendedprice * (1 - l_discount) * (1 + l_tax)) as sum_charge,
+		avg(l_quantity) as avg_qty,
+		avg(l_extendedprice) as avg_price,
+		avg(l_discount) as avg_disc,
+		count(*) as count_order
+	from
+		lineitem
+	where
+		l_shipdate <= date '1998-12-01' - interval '72 days'
+	group by
+		l_returnflag,
+		l_linestatus
+	order by
+		l_returnflag,
+		l_linestatus;
+2015-09-02 20:41:24 EDT [60959]: [109-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 20:41:24 EDT [60959]: [110-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.015 s, sync=0.000 s, total=0.018 s; sync files=1, longest=0.000 s, average=0.000 s; distance=3 kB, estimate=137956 kB
+2015-09-02 20:51:24 EDT [60959]: [111-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 20:51:24 EDT [60959]: [112-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.115 s, sync=0.007 s, total=0.124 s; sync files=28, longest=0.000 s, average=0.000 s; distance=16 kB, estimate=124162 kB
+2015-09-02 21:01:24 EDT [60959]: [113-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 21:01:24 EDT [60959]: [114-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.016 s, sync=0.000 s, total=0.018 s; sync files=1, longest=0.000 s, average=0.000 s; distance=3 kB, estimate=111746 kB
+2015-09-02 21:06:24 EDT [60959]: [115-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-02 21:08:53 EDT [60959]: [116-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 11280 buffers (1.1%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=148.740 s, sync=0.020 s, total=148.763 s; sync files=27, longest=0.015 s, average=0.000 s; distance=122893 kB, estimate=122893 kB
+2015-09-02 21:08:54 EDT [60957]: [2-1] user=,db=,app=,client= LOG:  received fast shutdown request
+2015-09-02 21:08:54 EDT [60957]: [3-1] user=,db=,app=,client= LOG:  aborting any active transactions
+2015-09-02 21:08:54 EDT [60962]: [2-1] user=,db=,app=,client= LOG:  autovacuum launcher shutting down
+2015-09-02 21:08:54 EDT [60959]: [117-1] user=,db=,app=,client= LOG:  shutting down
+2015-09-02 21:08:54 EDT [60959]: [118-1] user=,db=,app=,client= LOG:  checkpoint starting: shutdown immediate
+2015-09-02 21:08:54 EDT [60959]: [119-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 2623 buffers (0.3%); 0 transaction log file(s) added, 7 removed, 0 recycled; write=0.027 s, sync=0.020 s, total=0.051 s; sync files=9, longest=0.017 s, average=0.002 s; distance=29127 kB, estimate=113517 kB
+2015-09-02 21:08:54 EDT [60959]: [120-1] user=,db=,app=,client= LOG:  database system is shut down

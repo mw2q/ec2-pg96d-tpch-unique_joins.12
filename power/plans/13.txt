@@ -1,0 +1,43 @@
+BEGIN;
+BEGIN
+EXPLAIN
+select
+	c_count,
+	count(*) as custdist
+from
+	(
+		select
+			c_custkey,
+			count(o_orderkey)
+		from
+			customer left outer join orders on
+				c_custkey = o_custkey
+				and o_comment not like '%express%accounts%'
+		group by
+			c_custkey
+	) as c_orders (c_custkey, c_count)
+group by
+	c_count
+order by
+	custdist desc,
+	c_count desc;
+                                                     QUERY PLAN                                                      
+---------------------------------------------------------------------------------------------------------------------
+ Sort  (cost=35365022.70..35365023.20 rows=200 width=8)
+   Sort Key: (count(*)) DESC, (count(orders.o_orderkey)) DESC
+   ->  HashAggregate  (cost=35365013.06..35365015.06 rows=200 width=8)
+         Group Key: count(orders.o_orderkey)
+         ->  GroupAggregate  (cost=30851600.21..35140013.06 rows=15000000 width=8)
+               Group Key: customer.c_custkey
+               ->  Merge Left Join  (cost=30851600.21..34244843.91 rows=149033830 width=8)
+                     Merge Cond: (customer.c_custkey = orders.o_custkey)
+                     ->  Index Only Scan using pk_customer on customer  (cost=0.43..747799.44 rows=15000000 width=4)
+                     ->  Materialize  (cost=30851526.11..31596695.26 rows=149033830 width=8)
+                           ->  Sort  (cost=30851526.11..31224110.69 rows=149033830 width=8)
+                                 Sort Key: orders.o_custkey
+                                 ->  Seq Scan on orders  (cost=0.00..4506668.38 rows=149033830 width=8)
+                                       Filter: ((o_comment)::text !~~ '%express%accounts%'::text)
+(14 rows)
+
+COMMIT;
+COMMIT

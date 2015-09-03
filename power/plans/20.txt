@@ -1,0 +1,71 @@
+BEGIN;
+BEGIN
+EXPLAIN
+select
+	s_name,
+	s_address
+from
+	supplier,
+	nation
+where
+	s_suppkey in (
+		select
+			ps_suppkey
+		from
+			partsupp
+		where
+			ps_partkey in (
+				select
+					p_partkey
+				from
+					part
+				where
+					p_name like 'burnished%'
+			)
+			and ps_availqty > (
+				select
+					0.5 * sum(l_quantity)
+				from
+					lineitem
+				where
+					l_partkey = ps_partkey
+					and l_suppkey = ps_suppkey
+					and l_shipdate >= '1997-01-01'
+					and l_shipdate < cast(date '1997-01-01' + interval '1 year' as date)
+			)
+	)
+	and s_nationkey = n_nationkey
+	and n_name = 'ALGERIA'
+order by
+	s_name;
+                                                                            QUERY PLAN                                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sort  (cost=116859735.13..116859764.43 rows=11720 width=51)
+   Sort Key: supplier.s_name
+   ->  Hash Semi Join  (cost=116833161.93..116858943.05 rows=11720 width=51)
+         Hash Cond: (supplier.s_suppkey = partsupp.ps_suppkey)
+         ->  Nested Loop  (cost=750.42..24325.21 rows=40000 width=55)
+               ->  Seq Scan on nation  (cost=0.00..1.31 rows=1 width=4)
+                     Filter: (n_name = 'ALGERIA'::bpchar)
+               ->  Bitmap Heap Scan on supplier  (cost=750.42..23923.90 rows=40000 width=59)
+                     Recheck Cond: (s_nationkey = nation.n_nationkey)
+                     ->  Bitmap Index Scan on supplier_s_nationkey_s_suppkey_idx  (cost=0.00..740.42 rows=40000 width=0)
+                           Index Cond: (s_nationkey = nation.n_nationkey)
+         ->  Hash  (cost=116827604.05..116827604.05 rows=292996 width=4)
+               ->  Nested Loop  (cost=8168.14..116827604.05 rows=292996 width=4)
+                     ->  Bitmap Heap Scan on part  (cost=8167.57..364711.46 rows=220021 width=4)
+                           Filter: ((p_name)::text ~~ 'burnished%'::text)
+                           ->  Bitmap Index Scan on part_p_name_idx  (cost=0.00..8112.56 rows=218000 width=0)
+                                 Index Cond: (((p_name)::text >= 'burnished'::text) AND ((p_name)::text < 'burnishee'::text))
+                     ->  Index Scan using pk_partsupp on partsupp  (cost=0.57..529.32 rows=1 width=8)
+                           Index Cond: (ps_partkey = part.p_partkey)
+                           Filter: ((ps_availqty)::numeric > (SubPlan 1))
+                           SubPlan 1
+                             ->  Aggregate  (cost=129.35..129.37 rows=1 width=5)
+                                   ->  Index Scan using lineitem_l_partkey_l_quantity_l_shipmode_idx on lineitem  (cost=0.57..129.35 rows=1 width=5)
+                                         Index Cond: (l_partkey = partsupp.ps_partkey)
+                                         Filter: ((l_shipdate >= '1997-01-01'::date) AND (l_shipdate < '1998-01-01'::date) AND (l_suppkey = partsupp.ps_suppkey))
+(25 rows)
+
+COMMIT;
+COMMIT
